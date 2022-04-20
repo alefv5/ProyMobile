@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="148dp"
-        android:text="@string/es_tu_turno"
+        android:text="es_tu_turno:"
         android:textColor="#DAE1E6"
         android:textSize="35sp"
         android:textStyle="bold"
@@ -62,4 +62,5 @@
         app:iconSize="35dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
