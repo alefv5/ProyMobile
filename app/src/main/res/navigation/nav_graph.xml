@@ -36,5 +36,18 @@
         <action
             android:id="@+id/action_thirdFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_thirdFragment_to_fourthFragment"
+            app:destination="@id/fourthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fourthFragment"
+        android:name="edu.bo.ucb.toddys.FourthFragment"
+        android:label="@string/fourth_fragment_label"
+        tools:layout="@layout/fragment_fourth" >
+        <action
+            android:id="@+id/action_fourthFragment_to_thirdFragment"
+            app:destination="@id/thirdFragment" />
     </fragment>
 </navigation>
+<!--Aca se cambian los titulos de las vistas y ademas es donde se coloca la navegacion de las vistas-->

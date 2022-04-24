@@ -5,6 +5,7 @@
     <string name="first_fragment_label">Inicio</string>
     <string name="second_fragment_label">Menu</string>
     <string name="third_fragment_label">Cantidad De Jugadores</string>
+    <string name="fourth_fragment_label">Antes De Empezar</string>
     <string name="next">Jugar</string>
     <string name="previous">Atras</string>
     <string name="local">Local</string>
@@ -12,10 +13,11 @@
     <string name="dos">Dos</string>
     <string name="tres">Tres</string>
     <string name="cuatro">Cuatro</string>
+    <string name="Iniciar">Iniciar</string>
 
     <!--
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     -->
-</resources>
+</resources><!--Aca se coloca el nombre de las variables globales por decir los nombres de los botones-->
