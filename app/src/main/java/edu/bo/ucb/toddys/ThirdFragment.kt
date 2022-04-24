@@ -6,11 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import edu.bo.ucb.toddys.databinding.FragmentSecondBinding
+import edu.bo.ucb.toddys.databinding.FragmentThirdBinding
 
-class SecondFragment : Fragment() {
-
-    private var _binding: FragmentSecondBinding? = null
+class ThirdFragment : Fragment() {
+    private var _binding: FragmentThirdBinding? = null
 
     private val binding get() = _binding!!
 
@@ -19,7 +18,7 @@ class SecondFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentSecondBinding.inflate(inflater, container, false)
+        _binding = FragmentThirdBinding.inflate(inflater, container, false)
         return binding.root
 
     }
@@ -27,12 +26,8 @@ class SecondFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonSecond.setOnClickListener {
-            findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
-        }
-
-        binding.btnLocal.setOnClickListener{
-            findNavController().navigate(R.id.action_SecondFragment_to_thirdFragment)
+        binding.btnAtras.setOnClickListener {
+            findNavController().navigate(R.id.action_thirdFragment_to_SecondFragment)
         }
     }
 
