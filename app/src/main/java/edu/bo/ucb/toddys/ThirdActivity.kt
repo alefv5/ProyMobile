@@ -16,5 +16,11 @@ class ThirdActivity : AppCompatActivity() {
         btnAtrasVista3.setOnClickListener{
             startActivity(Intent(this,SecondActivity::class.java))
         }
+
+        val btnOpcion2: Button = findViewById(R.id.btnOpcion2)
+
+        btnOpcion2.setOnClickListener {
+            startActivity(Intent(this,FourthActivity::class.java))
+        }
     }
 }
