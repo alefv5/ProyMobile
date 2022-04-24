@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Toddys</string>
+    <string name="btnInicio">Iniciar</string>
+    <string name="btnAtras">Atras</string>
+    <string name="btnLocal">Local</string>
+    <string name="btnMult">Multijugador</string>
+    <string name="btnNombreVista2">Opciones de Juego</string>
+    <string name="btnOpcion2">2</string>
+    <string name="btnOpcion3">3</string>
+    <string name="btnOpcion4">4</string>
+</resources>
