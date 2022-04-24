@@ -5,7 +5,9 @@
     <string name="first_fragment_label">Inicio</string>
     <string name="second_fragment_label">Menu</string>
     <string name="next">Jugar</string>
-    <string name="previous">Previous</string>
+    <string name="previous">Atras</string>
+    <string name="local">Local</string>
+    <string name="mult">Multijugador</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
