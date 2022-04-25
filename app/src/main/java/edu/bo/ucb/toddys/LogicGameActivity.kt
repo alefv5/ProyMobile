@@ -36,6 +36,24 @@ class LogicGameActivity : AppCompatActivity() {
 
         val imgDado: ImageView = findViewById(R.id.imgDado)
         imgDado.setImageResource(drawableResource)
+
+        var txtDatos: TextView = findViewById(R.id.txtDatos)
+
+        val opcion1:String = "Accion 1"
+        val opcion2:String = "Accion 2"
+        val opcion3:String = "Accion 3"
+        val opcion4:String = "Accion 4"
+        val opcion5:String = "Accion 5"
+        val opcion6:String = "Accion 6"
+
+        when(numero){
+            1-> txtDatos.text = opcion1
+            2-> txtDatos.text = opcion2
+            3-> txtDatos.text = opcion3
+            4-> txtDatos.text = opcion4
+            5-> txtDatos.text = opcion5
+            else -> txtDatos.text = opcion6
+        }
     }
 
     private fun lanzar(max: Int): Int{

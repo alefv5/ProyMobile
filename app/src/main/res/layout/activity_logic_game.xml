@@ -32,6 +32,18 @@
         app:layout_constraintVertical_bias="0.177"
         tools:text="1" />
 
+    <TextView
+        android:id="@+id/txtDatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="1" />
+
     <ImageView
         android:id="@+id/imgDado"
         android:layout_width="300dp"
